@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="w-full flex flex-col min-h-[60vh] bg-[#0b1523] pt-64 pb-10 sm:pt-52 lg:px-20 px-10 gap-10">
-                <div className="relative w-40 h-14"><Image src={logo} alt="logoFooter" layout="fill" /></div>
+                <div className="relative w-40 h-14"><Image src={logo} alt="logoFooter" layout="fill" className="object-contain"/></div>
                 <div className="flex lg:flex-row flex-col xl:gap-28 gap-10">
                     <div className="lg:w-1/2 w-full flex md:flex-row flex-col md:gap-0 gap-5">
                         <div className="flex flex-row items-start gap-3">

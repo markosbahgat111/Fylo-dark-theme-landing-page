@@ -6,7 +6,7 @@ import arrow from 'assets/images/icon-arrow.svg';
 const SectionThree = () => {
     return (
         <div className="w-11/12 flex lg:flex-row flex-col items-center lg:text-left md:text-center text-left justify-center gap-20 mt-40 mx-auto">
-            <div className="relative w-[90vw] h-[50vh] lg:w-[40vw] lg:h-[50vh] "><Image src={productivity} alt="productivity" layout="fill" /></div>
+            <div className="relative w-[90vw] h-[50vh] lg:w-[40vw] lg:h-[50vh] "><Image src={productivity} alt="productivity" layout="fill" className="object-contain"/></div>
             <div className="lg:w-[45%] w-11/12 lg:pr-40 flex flex-col lg:items-start items-start md:items-center gap-6">
                 <h1 className="font-bold text-4xl">Stay Productive,<br className="hidden lg:visible"/> wherever you are</h1>
                 <p className="text-gray-300 font-openSans">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>

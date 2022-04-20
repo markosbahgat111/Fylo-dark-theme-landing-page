@@ -23,7 +23,7 @@ const Testimonial = () =>
             <div className={classes.container}>
                 <p className={classes.p}>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div className={classes.identity_container}>
-                    <div className={classes.img_container}><Image src={person1} layout="fill" alt="person1" /></div>
+                    <div className={classes.img_container}><Image src={person1} layout="fill" alt="person1" className="object-contain"/></div>
                     <div>
                         <h3 className={classes.h3}>Satish Patel</h3>
                         <span className={classes.span}>Founder & CEO.Muddle</span>
@@ -33,7 +33,7 @@ const Testimonial = () =>
             <div className={classes.container}>
                 <p className={classes.p}>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div className={classes.identity_container}>
-                    <div className={classes.img_container}><Image src={person2} layout="fill" alt="person2" /></div>
+                    <div className={classes.img_container}><Image src={person2} layout="fill" alt="person2" className="object-contain"/></div>
                     <div>
                         <h3 className={classes.h3}>Bruce Mckenzile</h3>
                         <span className={classes.span}>Founder & CEO.Muddle</span>
@@ -43,7 +43,7 @@ const Testimonial = () =>
             <div className={classes.container}>
                 <p className={classes.p}>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div className={classes.identity_container}>
-                    <div className={classes.img_container}><Image src={person3} layout="fill" alt="person3" /></div>
+                    <div className={classes.img_container}><Image src={person3} layout="fill" alt="person3" className="object-contain"/></div>
                     <div>
                         <h3 className={classes.h3}>Lva Boyd</h3>
                         <span className={classes.span}>Founder & CEO.Huddle</span>
